@@ -1,0 +1,49 @@
+.wrapdiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 300px;
+    margin-bottom: 2rem;
+}
+
+
+
+
+.carcarousel {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.carousel-item {
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center; */
+    transition: none;
+    width: 100%;
+}
+
+
+.carousel-inner {
+    transition: none;
+    /* margin-left: 15%;
+    margin-bottom: 2rem;
+    margin-top: 2rem; */
+}
+
+.custstylecar {
+    height: 300px;
+    width: auto;
+}
+
+.istyle {
+    background-color: white;
+}
+
+.activecar {
+    background-color: rgb(237, 232, 232);
+}

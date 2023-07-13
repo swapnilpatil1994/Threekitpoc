@@ -1,0 +1,17 @@
+.tk-treble-app {
+  display: grid;
+  width: 100%;
+
+}
+
+.tk-treble-player {
+  min-height: 100vh;
+  position: sticky;
+  top: 0;
+}
+
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+  margin-right: 0px;
+}

@@ -1,0 +1,93 @@
+.contmain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 100%; */
+}
+
+.pa {
+    display: flex;
+    text-align: center;
+    /* padding-bottom: 2rem; */
+    margin: 2rem 10rem;
+
+}
+
+
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 5rem;
+    padding-bottom: 2rem;
+
+}
+
+.caption {
+    display: flex;
+    flex-direction: column;
+}
+
+.styles {
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0.17943471670150757px;
+    text-align: center;
+
+}
+
+.looks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.headerss {
+    font-family: Ubuntu;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0.4485867917537689px;
+    text-align: center;
+
+}
+
+.vidimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.icon-container {
+    position: absolute;
+    /* top: 50%;
+    bottom: 50%; */
+    transform: translate(-50%, -50%);
+    height: 50px;
+    width: 50px;
+    z-index: 9;
+    color: white;
+}
+
+.iconss {
+    /* font-size: 50px;
+    /* Adjust the size as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+
+}

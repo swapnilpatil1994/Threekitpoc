@@ -1,0 +1,19 @@
+.item {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.2rem;
+    padding: 11px;
+    border: 0.72px solid #BBBBBB;
+    width: 272.44px
+}
+
+.wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 1rem;
+
+    height: 180px;
+}
