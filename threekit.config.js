@@ -12,7 +12,7 @@ export default {
 
   products: {
     preview: {
-      assetId:'c3d30f69-df44-42c1-8c88-14d856a458d7',
+      assetId: 'c3d30f69-df44-42c1-8c88-14d856a458d7',
       configurationId: undefined,
       stageId: undefined,
     },

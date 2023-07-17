@@ -3,22 +3,21 @@ import React from 'react';
 import CarPlayer from './CarPlayer';
 import './PlayerCar.css';
 import Multi from '../Multicard/Multi';
-// import Navb from './Navb';
-// import Footer from './Footer';
+import NavBar from '../Navbar/NavBar';
+import Footer from '../Footer/Footer';
 
 function PlayerCar() {
   return (
     <>
-      {/* <div>
-        <Navb />
-      </div> */}
-      <div >
+      <div>
+        <NavBar />
+      </div>
+      <div className="car-player">
         <CarPlayer />
-       </div>
-        {/* <div className='cont'>
-         <Footer/>
-        </div> */}
-      
+      </div>
+      <div className="cont">
+        <Footer />
+      </div>
     </>
   );
 }
